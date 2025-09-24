@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f9f9f9;
+    padding: 20px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: purple;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li {
+    margin-left: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+    font-weight: bold;
+}
+
+.nav ul li a:hover {
+    color: purple;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to left,gray,white,gray);
+    color: purple;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    background: white;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.hero button:hover {
+    background: #333;
+    color: white;
+}
+.test-section {
+    background-color: #eaeaea;
+    padding: 60px 0;
+    text-align: center;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
+
+.footer a {
+    color: #ffdb4d;
+    text-decoration: none;
+}
+.boyalar{
+    padding: 20px;
+    background: #f5f5f5;
+    font-weight: bold;
+}
+.boya-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.boya{
+    background:linear-gradient(gray,white,gray);
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 500px;
+    text-align: center;
+}
+.urun img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+button{
+    background: purple;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background: black;
+}
+
+.urunler-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr); /*her satırdaki ürün sayısı*/
+    gap: 20px; /*ürünler arasındaki boşluk*/
+    justify-items: center;
+}
+.urun-karti{
+    width: 250px;
+    padding: 20px;
+    background:linear-gradient(gray,white,gray);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+.urun-resim{
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    object-fit: cover; /*fotoğrafın taşmasını engeller*/
+    margin-bottom: 15px;
+}
+.fiyat {
+    font-size: 16px;
+    color:black;
+    margin-bottom: 20px;
+}
+
+.detay-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #fff;
+    background-color: purple;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.detay-btn:hover {
+    background-color: black;
+}
+h3 {
+    color: black;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+h2 {
+    color: black;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
+
+.footer a {
+    color: #ffdb4d;
+    text-decoration: none;
+}
